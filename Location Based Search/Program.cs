@@ -6,7 +6,11 @@ namespace Location_Based_Search
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Search search = new Search();
+			search.NewSearch();
+			
+			Console.WriteLine("Press any key to exit...");
+			Console.ReadLine();
 		}
 	}
 }
