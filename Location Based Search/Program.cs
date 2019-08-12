@@ -6,8 +6,7 @@ namespace Location_Based_Search
 	{
 		static void Main(string[] args)
 		{
-			Search search = new Search();
-			search.NewSearch();
+			Search search = new Search("LE8 5XT");
 			
 			Console.WriteLine("Press any key to exit...");
 			Console.ReadLine();
